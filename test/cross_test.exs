@@ -8,7 +8,7 @@ defmodule CrossTest do
     assert Storage.read("key") == "value"
   end
 
-  test "create a storage element if already exist" do
+  test "Если запись существует в хранилищи" do
     Storage.delete("key")
     assert Storage.create("key", "value", 3000000) == "Запись value добавлена"
     assert Storage.create("key", "value", 3000000) == "Такой запись уже существует"
