@@ -1,6 +1,5 @@
 defmodule CrossTest do
   use ExUnit.Case, async: true #Выполняет наборы тестов параллельно
-  doctest Cross
 
   test "Добавить запись в хранилищи" do
     Storage.delete("key")
