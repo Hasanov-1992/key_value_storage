@@ -11,7 +11,7 @@ defmodule Cross.MixProject do
     ]
   end
 
-  # Run "mix help compile.app" to learn about applications.
+  # Run "mix help compile.app" to learn about applications (for test).
   def application do
     [
       extra_applications: [:logger],
