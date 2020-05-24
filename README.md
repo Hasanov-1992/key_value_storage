@@ -14,7 +14,7 @@ Tender.pro, 2017
 Запуск осуществляется стандартно: iex -S mix
 
 
-License
+License for test with git tutorial
 -------
 
 This project is under the **MIT** License. See the [LICENSE](LICENSE) file for the full license text.
