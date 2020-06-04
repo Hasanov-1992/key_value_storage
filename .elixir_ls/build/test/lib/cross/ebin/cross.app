@@ -2,9 +2,8 @@
              [{applications,[kernel,stdlib,elixir,logger,poison,cowboy,plug,
                              plug_cowboy]},
               {description,"cross"},
-              {modules,['Elixir.Cross','Elixir.Cross.Application',
-                        'Elixir.Cross.Endpoint','Elixir.Cross.Router',
-                        'Elixir.Storage']},
+              {modules,['Elixir.Cross.Application','Elixir.Cross.Endpoint',
+                        'Elixir.Cross.Router','Elixir.Storage']},
               {registered,[]},
               {vsn,"0.1.0"},
               {mod,{'Elixir.Cross.Application',[]}}]}.
